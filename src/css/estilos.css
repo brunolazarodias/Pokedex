@@ -5,6 +5,14 @@ body {
     background-position: center;
 }
 
+header{
+    text-align: center;
+    margin-bottom: -170px;
+    }
+    header img{
+    width: 300px;
+    }
+
 body::before {
     content: "";
     position: fixed;
@@ -16,7 +24,9 @@ body::before {
     backdrop-filter:  blur(10px);
 }
 
+
 main {
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,8 +36,8 @@ main {
 
 .pokedexs {
     display: flex;
-    gap: 30px;
-    padding: 7% 0;
+    gap: 10px;
+    padding: 1% 0;
 }
 
 .cartao-pokedex {
